@@ -1,10 +1,10 @@
 name: pingCommand
-main: org.maic.Ping
 version: 1.0
+main: org.maic.Ping
 api-version: 1.8
 
 commands:
-  ping:
+  ping2:
     description: Plugin para ver el ping mejorado
     usage: /ping2
     aliases: pingpong
