@@ -10,7 +10,7 @@ public class Ping extends JavaPlugin {
     @Override
     public void onEnable() {
         Bukkit.getConsoleSender().sendMessage(ChatColor.translateAlternateColorCodes('&',"&bPingPlugin activado!"));
-        this.getCommand("ping2").setExecutor(new PingCommand());
+        this.getCommand("ping").setExecutor(new PingCommand());
     }
 
     @Override

@@ -4,7 +4,7 @@ main: org.maic.Ping
 api-version: 1.8
 
 commands:
-  ping2:
+  ping:
     description: Plugin para ver el ping mejorado
-    usage: /ping2
+    usage: /ping
     aliases: pingpong
